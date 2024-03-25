@@ -17,32 +17,69 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage</li>
+          <li>The head element contains information(metadata) about the webpage that helps the browser render it correctly</li>
           <li>The body element represents the visible content shown to the user</li>
+          <li>!DOCTYPE is the decleration at the top that tells the browser what document type should be expected when opened </li>
+          <li>Style element defines the CSS styles associated with a website</li>
+          <li>Base ewlements defines the base URL for a webpage</li>
+          <li>Link element connects an external resource to the HTML document</li>
+          <li>Meta element defines metadata such as the character set, description, keyowrds, author and viewpoint</li>
+          <li>Script element embeds client-side scripts in the HTML</li>
+          <li>h1-main header, h2-second teir of headings</li>
+          <li>ul-unordered list, li-list item </li>
         </ul>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>Cascading Styl Sheets(CSS)- a programming language used by developers to define how webpage content is presented to users</li>
+          <li>Inline CSS styles apply to a specific HTML tag using a style attribute with a CSS rule to style a particular page element only</li>
+          <li>Ex: (h1) style=color:red:>Prework Study Guide(/h1)</li>
+          <li>Internal Style sheet contains CSS rules for the webpage in the head section of the HTML file</li>
+          <li>Ex: (head) Line 1
+                  (style) Line 2
+                    hi { Line 3
+                      color:red; Line 4
+                    } Line 5
+                  (/style) Line 6
+          (/head) Line 7</li>
+          <li>External CSS style is the most common eway to style a webpage because it allows develpers to keep all their CSS rules in  a seperate file which makes desiogn changes easier</li>
+          <li>when using an external style sheet we link the file using a (link) element placed in the HTML's (head)</li>
+          <li>(head) Line 1 (link rel="stylesheet" href"./assets/style.css" /) Line 2 (/head) Line 3</li>
+          <li>CSS rule- a selector defines the element or attributes to which the rules, or declarations, will apply</li>
+          <li>Declerations contain two important components: the CSS property we want to apply and the value of the property</li>
+          <li>Margin property indicates how much space we want around the outside of an element. The margin is not visible on the page, it merely adds a buffer</li>
+          <li>The padding property adds space around the content inside of an element</li>
         </ul>
       </section>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-       <li>git status: checks what branch we are currently on</li>
-       <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-       <li>git add -A: commit all files in the working branch</li>
-       <li>git pull origin main: syncs your local and remote main branches</li>
+       <li>Repository(Repo) in Github stores files for projects and the version history for those files </li>
+       <li>Github issues usually include a title and description that has user stories and acceptance criteria top describe the the task that needs to be completed</li>
+       <li>GitHub flow- Create a feature branch, make changes, commit and push your changes, create a pull request, address/review comments, merge pull request</li>
+       <li>The git command must precede every Git statement</li>
+       <li>Git status: checks what branch we are currently on</li>
+       <li>Git checkout: moves the working branch to  anew branch</li>
+       <li>Git checkout -b branch-name: creates a new branch and switches to it</li>
+       <li>It is good practice to name the branches for the feature that will be developed by them to help indicate the purpose of each branch</li>
+       <li>Git add -A: commit all files in the working branch</li>
+       <li>Git pull origin main: syncs your local and remote main branches</li>
         </ul>
       </section>
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-       <li>Enter your JavaScript notes here</li>
+       <li>Tool that takes a static HTML/CSS webpage and makes it interactive</li>
+       <li>Create file with name script.js to work on then add to HTML using (script) element under (footer) </li>
+       <li>Use (console.log) to log variable to the web console in browser</li>
+       <li>Variables: named containers that store data in our code. </li>
+       <li>Control flow: the order in which a computer executes code in a  script</li>
+       <li>Array: a single variable that ius used to hold a group of data. Typically used to hold data that is related in some way</li>
+       <li>Function: set of instructions that tells a computer how to perform a certain task (do not automatically execute when the Js file is run. must call a function by its name to execute it)</li>
         </ul>
       </section>
     </main>
